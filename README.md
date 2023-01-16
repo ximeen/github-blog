@@ -35,9 +35,9 @@ Com isso já pode colocar o projeto para rodar, ( Ele não possui nenhuma variav
 
 ```bash
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
 ```
 
