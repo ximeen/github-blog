@@ -2,7 +2,7 @@
 
 ## 🧐 O que é esse projeto?
 
-Este projeto se trata de um blog integrado com a issues do git hub, ou seja, toda issue feita em um determinado repositorio será renderizada nessa aplicação de uma forma agradavel, foi criado no intuito de estudos, de Nextjs, Stitches e consumo de API, do proprio github, onde temos atualização em tempo real.
+Este projeto se trata de um blog integrado com as issues do github, ou seja, toda issue feita em um determinado repositorio será renderizada nessa aplicação de uma forma agradavel e organizada, foi criado afins de estudo, das tecnologias Nextjs, Stitches e consumo de API.
 
 ## 🚀 Tecnologias Utilizadas
 
