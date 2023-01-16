@@ -1,3 +1,8 @@
+## 🚀 Tecnologias
+
+- Next.js
+- Stitches
+
 ## Getting Started
 
 First, run the development server:
