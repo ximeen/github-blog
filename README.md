@@ -1,4 +1,4 @@
-<img src="/banner-project.png" alt="Banner do projeto, pagina inicial">
+![Imagem de banner do projeto, pagina inicial](/public/banner-project.png)
 
 ## 🚀 Tecnologias
 
