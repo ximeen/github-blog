@@ -1,13 +1,37 @@
 ![Imagem de banner do projeto, pagina inicial](/public/banner-project.png)
 
-## 🚀 Tecnologias
+## 🧐 O que é esse projeto?
+
+Este projeto se trata de um blog integrado com a issues do git hub, ou seja, toda issue feita em um determinado repositorio será renderizada nessa aplicação de uma forma agradavel, foi criado no intuito de estudos, de Nextjs, Stitches e consumo de API, do proprio github, onde temos atualização em tempo real.
+
+## 🚀 Tecnologias Utilizadas
 
 - Next.js
 - Stitches
 
-## Getting Started
+## 🪄 Caso queria testar na sua maquina
 
-First, run the development server:
+Primeiro baixe o projeto na sua maquina, utilize os comandos:
+
+```bash
+# Se possuir a CLI do github
+gh repo clone ximeen/github-blog
+
+# Por https
+git clone https://github.com/ximeen/github-blog.git
+```
+
+Após projeto baixado, deve instalar as dependencias do projeto, com os comandos a seguir:
+
+```bash
+npm install
+# ou
+yarn
+# ou
+pnpm install
+```
+
+Com isso já pode colocar o projeto para rodar, ( Ele não possui nenhuma variavel local), para rodar o projeto basta escrever no terminal:
 
 ```bash
 npm run dev
@@ -17,13 +41,20 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Para abrir no navegador para ver os resultados[http://localhost:3000](http://localhost:3000)
 
-## Icones de commits!!
+## ℹ️ Estrutura
+
+Este projeto tem seus aquivos principais dentro de `src`
+Sua página princial fica dentro de `src/pages` no arquivo `index.tsx`
+Onde nele temos a importação dos componentes necessarios para renderização em tela
+Possuimos cerca de `4 componentes` dentro de `src/components`
+
+Neste projeto possui um hook criado manualmente, em `src/hooks` esse hook `useDebounce` serve para definir um timeout para as requisições feitas a API no momento da procura de post no input, com ele definimos que só será feita 1 requisição a cada 500ms, o que da tempo para o usuario digitar, sem isso, cada caracter digitado seria uma requisição.
+
+## 💫 Icones de commits!!
 
 - :package: Nova funcionalidade
 - :up: Atualização
 - :beetle: Correção de bugs
 - :checkered_flag: release
-
-##
