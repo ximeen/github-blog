@@ -22,39 +22,39 @@ interface UserCardProps {
 export function UserCard({ user }: UserCardProps) {
 
   return (
-    <Layout>
-      <S.UserCardContainer>
-        <img src={user.avatar_url} alt={user.name} />
-        <S.UserCardContent>
-          <S.UserCardNameContainer>
 
-            <h2>{user.name}</h2>
-            <a href={user.url} target="_blank" rel="noopener noreferrer">
-              Github
-              <FaExternalLinkAlt size={12} />
-            </a>
+    <S.UserCardContainer>
+      <img src={user.avatar_url} alt={user.name} />
+      <S.UserCardContent>
+        <S.UserCardNameContainer>
 
-          </S.UserCardNameContainer>
+          <h2>{user.name}</h2>
+          <a href={user.url} target="_blank" rel="noopener noreferrer">
+            Github
+            <FaExternalLinkAlt size={12} />
+          </a>
 
-          <p>{user.bio}</p>
+        </S.UserCardNameContainer>
 
-          <S.UserCardInformation>
-            <span>
-              <FaGithub size={18} />
-              {user.login}
-            </span>
-            <span>
-              <FaBuilding size={18} />
-              {user.company}
-            </span>
-            <span>
-              <FaUserFriends size={18} />
-              {user.followers} Seguidores
-            </span>
-          </S.UserCardInformation>
+        <p>{user.bio}</p>
 
-        </S.UserCardContent>
-      </S.UserCardContainer>
-    </Layout>
+        <S.UserCardInformation>
+          <span>
+            <FaGithub size={18} />
+            {user.login}
+          </span>
+          <span>
+            <FaBuilding size={18} />
+            {user.company}
+          </span>
+          <span>
+            <FaUserFriends size={18} />
+            {user.followers} Seguidores
+          </span>
+        </S.UserCardInformation>
+
+      </S.UserCardContent>
+    </S.UserCardContainer>
+
   )
 }
