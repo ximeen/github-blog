@@ -1,3 +1,5 @@
+<img src="/banner-project.png" alt="Banner do projeto, pagina inicial">
+
 ## 🚀 Tecnologias
 
 - Next.js
@@ -23,3 +25,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - :up: Atualização
 - :beetle: Correção de bugs
 - :checkered_flag: release
+
+##
