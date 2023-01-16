@@ -11,7 +11,7 @@ Este projeto se trata de um blog integrado com as issues do github, ou seja, tod
 
 ## 🪄 Caso queria testar na sua maquina
 
-Primeiro baixe o projeto na sua maquina, utilize os comandos:
+Primeiro baixe o projeto na sua maquina, utilize os comandos no seu terminal e na pasta que preferir:
 
 ```bash
 # Se possuir a CLI do github
@@ -41,14 +41,14 @@ yarn dev
 pnpm dev
 ```
 
-Para abrir no navegador para ver os resultados[http://localhost:3000](http://localhost:3000)
+Para abrir no navegador para ver os resultados [http://localhost:3000](http://localhost:3000)
 
 ## ℹ️ Estrutura
 
-Este projeto tem seus aquivos principais dentro de `src`
-Sua página princial fica dentro de `src/pages` no arquivo `index.tsx`
-Onde nele temos a importação dos componentes necessarios para renderização em tela
-Possuimos cerca de `4 componentes` dentro de `src/components`
+Este projeto tem seus aquivos principais dentro de `src`,
+Sua página princial fica dentro de `src/pages` no arquivo `index.tsx`,
+Onde nele temos a importação dos componentes necessarios para renderização em tela,
+possuimos cerca de `4 componentes` dentro de `src/components`
 
 Neste projeto possui um hook criado manualmente, em `src/hooks` esse hook `useDebounce` serve para definir um timeout para as requisições feitas a API no momento da procura de post no input, com ele definimos que só será feita 1 requisição a cada 500ms, o que da tempo para o usuario digitar, sem isso, cada caracter digitado seria uma requisição.
 
